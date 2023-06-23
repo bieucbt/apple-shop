@@ -28,7 +28,7 @@ const ProductCart = (props) => {
             <div className="total">
                 <>subtotal: ${totalAmount.toFixed(2)}</>
                 <div className="btn-cart">
-                    <button><Link to="/shopping">Continue Shopping</Link> </button>
+                    <button><Link to="/apple-shop">Continue Shopping</Link> </button>
                     <button>Checkout</button>
                 </div>
                 </div>
