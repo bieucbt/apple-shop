@@ -13,7 +13,7 @@ const Navbar = () => {
   }
   return (
     <div className="navbar">
-        <Link to="/shopping-cart">Home</Link>
+        <Link to="/shopping">Home</Link>
         <Link to="/cart">
             <Cart size={32} />
             {
